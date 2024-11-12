@@ -154,6 +154,12 @@ img {
     .lessons .col{
         width: 100%;
     }
+
+    .lessons .row .col:first-child > .text{
+        margin-bottom: 3rem;
+    }
+
+
     /* section steps */
     .steps{
         margin-bottom: 0;
@@ -161,6 +167,10 @@ img {
     
     .steps .col{
         width: 100%;
+    }
+
+    .steps .row .col:nth-child(2) > .card{
+        margin: 3rem 0;
     }
 
     /* section why us */
@@ -173,6 +183,10 @@ img {
         background-color: #222222;
         padding: 3rem 0;
         margin-bottom: 0;
+    }
+
+    .why-us .col-left{
+        margin-bottom: 3rem;
     }
  }
 
